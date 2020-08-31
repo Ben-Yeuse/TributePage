@@ -1,0 +1,66 @@
+:root {
+    /* CSS HSL */
+    --main-color: hsla(293, 16%, 89%, 0.5); /*lavender-blush #e7dfe8*/
+    --secondary-color: hsla(338, 9%, 65%, 0.5); /*heliotrope-gray #af9fa5*/
+}
+
+
+body {
+    background-color: var(--main-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    text-align: center;
+    margin: auto;
+    min-width: 240px;
+    max-width: 960px;
+}
+
+#img-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-weight: normal;
+    font-style: oblique;
+}
+
+figcaption {
+    font-style: oblique;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+ul {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--secondary-color);
+}
+
+li {
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#last-p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
