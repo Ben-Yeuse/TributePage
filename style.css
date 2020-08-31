@@ -12,19 +12,21 @@ body {
 
 #main {
     text-align: center;
-    margin: auto;
     min-width: 240px;
     max-width: 960px;
+    margin: auto;
 }
 
 #img-div {
     margin-top: 50px;
     margin-bottom: 50px;
-}
+ }
 
 #image {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 h2 {
@@ -42,7 +44,7 @@ figcaption {
 }
 
 p {
-    text-align: justify;
+    text-align: start;
     line-height: 1.5;
 }
 
